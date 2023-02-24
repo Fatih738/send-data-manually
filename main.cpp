@@ -46,7 +46,7 @@ int main(int argc, char *argv[])
 
 
     itemTemp = engine.rootObjects().at(0)->findChild<QQuickItem*>("temp");
-    itemH = engine.rootObjects().at(0)->findChild<QQuickItem*>("hum");
+    itemH = engine.rootObjects().at(0)->findChild<QQuickItem*>("hum");//hum qml dosyasında kullandığımız obje ismi
 
 
     QTimer timer;
