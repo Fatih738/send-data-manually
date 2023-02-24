@@ -29,7 +29,7 @@ Window {
 
       Text {
           id: hum
-          objectName: "hum"
+          objectName: "hum"//obje ismini diğer tarafta değer atarken kullanıyoruz
           x: 587
           y: 385
           width: 128
